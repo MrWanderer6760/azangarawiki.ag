@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azangara Wiki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Welcome on Azangara Wiki!</h1>
+        </header>
+        
+        <main>
+            <div class="banner-container">
+                <img src="banner.jpg" alt="Azangara Wiki Banner" class="banner">
+            </div>
+            
+            <div class="description">
+                <p>This is the definitive encyclopedia dedicated to the game Azangara. It combines the English wiki Azanwiki (on gitbook.io) and the Russian wiki Azanopedia (on fandom)! The site is maintained by MrWanderer, and the rights to the site belong to Edembo Entertainment Studios.</p>
+            </div>
+            
+            <div class="language-section">
+                <h2 class="language-title">Language Selection</h2>
+                <div class="buttons-container">
+                    <button class="lang-btn english-btn" id="englishBtn">English</button>
+                    <button class="lang-btn russian-btn" id="russianBtn">Русский</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="console" class="console-hidden">
+        <div class="console-header">
+            <span>Developer Console</span>
+            <button onclick="hideConsole()">×</button>
+        </div>
+        <div class="console-output" id="consoleOutput">
+            <div>Azangara Wiki Developer Console v1.0</div>
+            <div>Type 'help' for available commands</div>
+        </div>
+        <div class="console-input">
+            <span>></span>
+            <input type="text" id="consoleInput" placeholder="Type command here...">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
