@@ -62,7 +62,6 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Анимация карточек навигации
     const navCards = document.querySelectorAll('.nav-card');
     navCards.forEach((card, index) => {
         card.style.opacity = '0';
