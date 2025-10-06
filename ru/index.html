@@ -1,1 +1,188 @@
-test
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Азангара Вики - Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Azangara" class="logo">
+                <h1 class="wiki-title">Азангара Вики</h1>
+            </div>
+            
+            <div class="header-controls">
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">☰</button>
+                <button class="theme-toggle" id="themeToggle">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-content">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="pages/azangara.html" class="nav-link">Азангара</a>
+                <a href="pages/azangara-debug.html" class="nav-link">Дебаг</a>
+                
+                <div class="nav-dropdown">
+                    <button class="nav-dropdown-btn">Контент ▼</button>
+                    <div class="nav-dropdown-content">
+                        <a href="pages/castles.html" class="dropdown-link">Замки</a>
+                        <a href="pages/bonuses.html" class="dropdown-link">Бонусы</a>
+                        <a href="pages/category-monsters.html" class="dropdown-link">Монстры</a>
+                        <a href="pages/category-versions.html" class="dropdown-link">Версии</a>
+                        <a href="pages/console.html" class="dropdown-link">Консоль</a>
+                        <a href="pages/category-custom-levels.html" class="dropdown-link">Кастомные Уровни</a>
+                        <a href="pages/category-cut-content.html" class="dropdown-link">Вырезанный Контент</a>
+                    </div>
+                </div>
+                
+                <a href="pages/category-guides.html" class="nav-link">Руководства</a>
+                <a href="pages/downloads.html" class="nav-link">Скачивание</a>
+                <a href="pages/administration.html" class="nav-link">Администрация</a>
+            </div>
+        </nav>
+
+        <nav class="desktop-nav">
+            <div class="nav-container">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="pages/azangara.html" class="nav-link">Азангара</a>
+                <a href="pages/azangara-debug.html" class="nav-link">Дебаг</a>
+                
+                <div class="nav-dropdown">
+                    <button class="nav-dropdown-btn">Контент ▼</button>
+                    <div class="nav-dropdown-content">
+                        <a href="pages/castles.html" class="dropdown-link">Замки</a>
+                        <a href="pages/bonuses.html" class="dropdown-link">Бонусы</a>
+                        <a href="pages/category-monsters.html" class="dropdown-link">Монстры</a>
+                        <a href="pages/category-versions.html" class="dropdown-link">Версии</a>
+                        <a href="pages/console.html" class="dropdown-link">Консоль</a>
+                        <a href="pages/category-custom-levels.html" class="dropdown-link">Кастомные Уровни</a>
+                        <a href="pages/category-cut-content.html" class="dropdown-link">Вырезанный Контент</a>
+                    </div>
+                </div>
+                
+                <a href="pages/category-guides.html" class="nav-link">Руководства</a>
+                <a href="pages/downloads.html" class="nav-link">Скачивание</a>
+                <a href="pages/administration.html" class="nav-link">Администрация</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="page-header">
+            <h1 class="page-title">Заглавная</h1>
+            <div class="language-switcher">
+                <a href="../en/index.html" class="lang-btn">
+                    <img src="images/en.png" alt="English" class="lang-flag">
+                    <span>English</span>
+                </a>
+            </div>
+        </div>
+
+        <section class="welcome-section">
+            <div class="welcome-card">
+                <h2>Добро Пожаловать на Azangara Вики!</h2>
+                <div class="banner-container">
+                    <img src="images/banner.png" alt="Azangara" class="main-banner">
+                </div>
+                <div class="welcome-text">
+                    <p>Эта вики посвящена игре «Азангара»</p>
+                    <p>Азангара — 3D-платформер и аркада, разработанный AxySoft и изданный AZZA Games (с подзаголовком "В поисках сокровищ") и Alawar Entertainment (с подзаголовком "Страна приключений") в 2007 году для Windows. Исследуйте запутанные лабиринты, избегайте ловушек и соберите все сокровища Азангары!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="nav-grid-section">
+            <h3 class="section-title">Карта сокровищ Азангара</h3>
+            <div class="nav-grid">
+                <a href="pages/azangara.html" class="nav-card">
+                    <img src="images/azangara-nav.jpg" alt="" class="card-icon">
+                    <span class="card-title">Азангара (Общая)</span>
+                </a>
+                <a href="pages/castles.html" class="nav-card">
+                    <img src="images/castles-nav.png" alt="" class="card-icon">
+                    <span class="card-title">Замки</span>
+                </a>
+                <a href="pages/bonuses.html" class="nav-card">
+                    <img src="images/bonuses-nav.png" alt="" class="card-icon">
+                    <span class="card-title">Бонусы</span>
+                </a>
+                <a href="pages/category-monsters.html" class="nav-card">
+                    <img src="images/monsters-nav.png" alt="" class="card-icon">
+                    <span class="card-title">Монстры</span>
+                </a>
+                <a href="pages/category-versions.html" class="nav-card">
+                    <img src="images/versions-nav.jpg" alt="" class="card-icon">
+                    <span class="card-title">Версии</span>
+                </a>
+                <a href="pages/category-guides.html" class="nav-card">
+                    <img src="images/guides-nav.jpg" alt="" class="card-icon">
+                    <span class="card-title">Руководства</span>
+                </a>
+                <a href="pages/leaderboard.html" class="nav-card">
+                    <img src="images/leaderboard-nav.png" alt="" class="card-icon">
+                    <span class="card-title">Таблица Лидеров</span>
+                </a>
+                <a href="pages/azangara-debug.html" class="nav-card">
+                    <img src="images/debug-nav.png" alt="" class="card-icon">
+                    <span class="card-title">Дебаг</span>
+                </a>
+                <a href="pages/category-cut-content.html" class="nav-card">
+                    <img src="images/cutcontent-nav.png" alt="" class="card-icon">
+                    <span class="card-title">Вырезанный Контент</span>
+                </a>
+                <a href="pages/category-custom-levels.html" class="nav-card">
+                    <img src="images/custom-levels-nav.png" alt="" class="card-icon">
+                    <span class="card-title">Кастомные Уровни</span>
+                </a>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="discord-widget">
+                <h4>Присоединяйтесь к нашему Discord!</h4>
+                <div class="discord-frame">
+                    <div class="discord-info">
+                        <div class="discord-icon">🎮</div>
+                        <div class="discord-text">
+                            <h5>Azangara Community</h5>
+                            <p>Обсуждайте игру, делитесь находками, создавайте кастосные уровни и находите друзей!</p>
+                        </div>
+                    </div>
+                    <a href="https://discord.gg/YEudrbX5v" class="discord-join-btn" target="_blank">
+                        Присоединиться к серверу
+                    </a>
+                </div>
+            </div>
+            
+            <div class="wiki-network">
+                <h4>Сеть Вики</h4>
+                <div class="wiki-links">
+                    <a href="https://azanwiki.gitbook.io/azanwiki" class="wiki-link">
+                        <img src="images/wiki1-logo.jpeg" alt="Вики 1" class="wiki-logo">
+                    </a>
+                    <a href="https://azanopedia.fandom.com/ru/wiki/Азангара_Вики" class="wiki-link">
+                        <img src="images/wiki2-logo.png" alt="Вики 2" class="wiki-logo">
+                    </a>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-main">
+            <p class="footer-slogan">Азангара Вики — это единая энциклопедия по игре Азангара</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Азангара Вики. Все права на сайт принадлежат Edembo Entertainment Studios.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
